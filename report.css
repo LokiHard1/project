@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f6f6f6; 
+}
+
+.header {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 64px; 
+    width: 100%;  
+    display: flex;
+    align-items: center; 
+}
+
+.wrapper {
+    max-width: 1920px; 
+    width: 100%; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 20px;   
+}
+
+.logo img {
+    width: 71.5px;
+    height: 16px; 
+}
+
+.header__nav {
+    flex-grow: 1;  
+}
+
+.header__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__item {
+    margin: 0 10px;
+}
+
+.header__link {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #373745; 
+    background: transparent; 
+    transition: 0.3s;
+}
+
+.header__item:hover {
+    background-color: #f0f0f0; 
+    border-radius: 30px;
+    padding: 10px 0px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="url"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #60C2AA;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4da89b;
+}
